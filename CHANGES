@@ -1,5 +1,6 @@
-1.0.1 2026-10-27
-  - NEMAR dataset_description.json Version 1.0.0 -> 1.0.1; no tag, release or publication request.
+1.0.3 2026-10-27
+  - NEMAR dataset_description.json Version 1.0.0 -> 1.0.3; no tag, release or publication request.
+  - Use 1.0.3 so this revision is newer than the inherited 1.0.2 CHANGES entry; preserve all earlier history.
   - Move 15 existing annexed FDT files next to their EEGLAB SET files under BIDS basenames. Signal bytes and annex keys are unchanged.
   - Record original paths, expected sizes, annex keys and Expanse staging paths in code/fix-20261019-manifest.json. All 15 sizes, full-file SHA256 annex keys, and EEGDash-local/MNE-BIDS first/last-second reads were verified on Expanse compute nodes. No raw content is stored in git.
 
